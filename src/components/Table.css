@@ -1,0 +1,19 @@
+.delete-btn{
+    background-color:var(--lightBlue);
+    border: 1px solid var(--darkBlue);
+    border-radius: 4px;
+    color: var(--darkBlue);
+    margin: 2px;
+    width: 5rem;
+    padding: 0.5rem 0;
+}
+.edit-btn{
+    background-color:var(--darkBlue);
+    border-radius: 4px;
+    color: var(--white);
+    margin: 2px;
+    width: 5rem;
+    padding: 0.5rem 0;
+
+    
+}

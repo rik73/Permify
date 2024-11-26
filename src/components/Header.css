@@ -1,0 +1,9 @@
+.header{
+    background-color: var(--darkBlue);
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    padding:0.5rem;
+    font-size: larger;
+    font-weight: 700;
+}

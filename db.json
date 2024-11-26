@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "86a0",
+      "name": "Adarsh ",
+      "email": "dummy@gmail.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "9268",
+      "name": "Hine ",
+      "email": "hine@1234",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": "5a5e",
+      "name": "hritik",
+      "email": "hritik@gmail.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": "2599",
+      "name": ""
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    }
+  ]
+}
