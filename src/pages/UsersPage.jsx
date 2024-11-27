@@ -41,7 +41,7 @@ const UsersPage = () => {
           setSelectedUser(null);
           setModalVisible(true);
         }}
-        className="add-user-btn"
+        className="add-user-btn "
       >
         Add User
       </button>
