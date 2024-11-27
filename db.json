@@ -1,29 +1,162 @@
 {
   "users": [
     {
-      "id": "86a0",
-      "name": "Adarsh ",
-      "email": "dummy@gmail.com",
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "id": "02de",
+      "name": "hritik",
+      "email": "hn@eg.com",
+      "password": "hn",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "2ef2",
+      "name": "sfseg",
+      "email": "sgsh",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "4ca9",
+      "name": "dgd",
+      "email": "dgdrh",
       "role": "Admin",
       "status": "Active"
     },
     {
-      "id": "9268",
-      "name": "Hine ",
-      "email": "hine@1234",
-      "role": "Editor",
+      "id": "fd4b",
+      "name": "sfsdfafsg",
+      "email": "fsdghfjygkhgfdtrfghjh,mhngbfvdc",
+      "password": "",
+      "role": "User",
       "status": "Active"
     },
     {
-      "id": "5a5e",
-      "name": "hritik",
-      "email": "hritik@gmail.com",
-      "role": "Editor",
+      "id": "ad9e",
+      "name": "wdwaad",
+      "email": "affg",
+      "role": "Admin",
       "status": "Active"
     },
     {
-      "id": "2599",
-      "name": ""
+      "id": "b597",
+      "name": "daerfsard",
+      "email": "sfesrgd",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "cf02",
+      "name": "rwegr",
+      "email": "rewer",
+      "password": "werfer",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "69f2",
+      "name": "sdfsadb",
+      "email": "fsdbf",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "2454",
+      "name": "fsf",
+      "email": "fsgd",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "b8af",
+      "name": "dfdg",
+      "email": "fesrdfhg",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "2094",
+      "name": "fdsdghj",
+      "email": "fdzghjnkm",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "e02a",
+      "name": "fsf",
+      "email": "fzsgf",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "948e",
+      "name": "xdfd ",
+      "email": "sdsv",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "3d31",
+      "name": "xdcsf",
+      "email": "dssd",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "2417",
+      "name": "dvsvd",
+      "email": "fsfe",
+      "role": "User",
+      "status": "Inactive"
+    },
+    {
+      "id": "70c8",
+      "name": "rge",
+      "email": "sfsfs",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "6eaf",
+      "name": "sfsf",
+      "email": "sfs",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "54e3",
+      "name": "cdfbghb",
+      "email": "vfbghmj",
+      "role": "User",
+      "status": "Inactive"
+    },
+    {
+      "id": "df56",
+      "name": "adarsh",
+      "email": "dgrtfghjk",
+      "role": "User",
+      "status": "Inactive"
+    },
+    {
+      "id": "a832",
+      "name": "adarsh",
+      "email": "gha",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "2d94",
+      "name": "randomm",
+      "email": "123445",
+      "password": "adfgr",
+      "role": "User",
+      "status": "Active"
     }
   ],
   "roles": [
@@ -38,10 +171,9 @@
     },
     {
       "id": "2",
-      "name": "Editor",
+      "name": "User",
       "permissions": [
-        "Read",
-        "Write"
+        "Register"
       ]
     }
   ]

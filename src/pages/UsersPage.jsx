@@ -3,6 +3,7 @@ import { getUsers, addUser, updateUser, deleteUser, getRoles } from "../services
 import Table from "../components/Table";
 import UserModal from "../components/UserModal";
 import './UsersPage.css';
+
 const UsersPage = () => {
   const [users, setUsers] = useState([]);
   const [roles, setRoles] = useState([]);
@@ -14,8 +15,12 @@ const UsersPage = () => {
   }, []);
 
   const fetchData = async () => {
+          const res = await getUsers();
+
     const [usersRes, rolesRes] = await Promise.all([getUsers(), getRoles()]);
-    setUsers(usersRes.data);
+    const filteredUsers = res.data.filter((user) => user.role === "User");
+
+      setUsers(filteredUsers);
     setRoles(rolesRes.data);
   };
 

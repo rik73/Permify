@@ -1,20 +1,20 @@
 .user-management-wrapper{
-& .title{
-  color: var(--darkBlue);
-  font-size: xx-large;
-  font-weight: 700;
-  text-align: center;
-}
-}
-
-
-.add-user-btn{
-    background-color:var(--darkBlue);
-    border-radius: 4px;
-    color: var(--white);
-    margin:5px 0;
-    width: 5rem;
-    padding: 0.5rem 0;
-
-     
-}
+  & .title{
+    color: var(--darkBlue);
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+  }
+  }
+  
+  
+  .add-user-btn{
+      background-color:var(--darkBlue);
+      border-radius: 4px;
+      color: var(--white);
+      margin:5px 5px;
+      width: 5rem;
+      padding: 0.5rem 0;
+  
+       
+  }
